@@ -2,7 +2,7 @@ package SS07_Abstract_Class_Interface.Thuc_hanh.Interface_Comparable_cho_cac_lop
 
 import SS06_Ke_thua.Thuc_hanh.Circle;
 
-public class ComparableCircle extends Circle implements Comparable {
+public class ComparableCircle extends Circle implements Comparable<ComparableCircle> {
 
     public ComparableCircle() {
     }
