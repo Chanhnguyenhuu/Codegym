@@ -25,6 +25,7 @@ public class MyList<E> {
     }
 
     void add(int index, E element) {
+        if (index < 0 || index > size)
         if (size == elements.length) {
             ensureCapa();
             for (int i = elements.length - 1; i > index; i--) {
@@ -47,9 +48,10 @@ public class MyList<E> {
         }
         return (E) elements[i];
     }
+
     E remove(int index) {
         if (index < 0 || index >= size) {
-
+            throw new IndexOutOfBoundsException("Index: " + index);
         } else {
             for (int i = index; i < elements.length - 1; i++) {
                 elements[i] = elements[i + 1];
@@ -58,4 +60,6 @@ public class MyList<E> {
         }
         return (E) elements;
     }
+
+
 }
