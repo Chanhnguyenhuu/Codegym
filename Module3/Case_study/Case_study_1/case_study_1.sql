@@ -1,5 +1,7 @@
 create database furama_resort;
 
+drop database furama_resort;
+
 use furama_resort;
 
 create table vi_tri(
@@ -108,6 +110,62 @@ foreign key (ma_hop_dong) references hop_dong(ma_hop_dong),
 foreign key (ma_dich_vu_di_kem) references dich_vu_di_kem(ma_dich_vu_di_kem)
 );
 
+insert into vi_tri(ten_vi_tri)
+values
+    ('Le tan'),
+    ('Phuc vu'),
+    ('Chuyen vien'),
+    ('Giam sat'),
+    ('Quan ly'),
+    ('Giam doc');
+    
+insert into trinh_do(ten_trinh_do)
+values 
+	('Trung cap'),
+    ('Cao dang'),
+    ('Dai hoc'),
+    ('Sau Dai hoc');
+    
+insert into bo_phan(ten_bo_phan)
+values
+	('Sale - Marketing'),
+    ('Hanh chinh'),
+    ('Phuc vu'),
+    ('Quan ly');
 
+insert into loai_dich_vu(ten_loai_dich_vu)
+values 
+	('Villa'),
+    ('House'),
+    ('Room');
+    
+insert into kieu_thue(ten_kieu_thue)
+values 
+	('Thue theo nam'),
+    ('Thue theo thang'),
+    ('Thue theo ngay'),
+    ('Thue theo gio');
+    
+insert into dich_vu_di_kem(ten_dich_vu_di_kem, gia, don_vi, trang_thai)
+values
+	('Massage', 100000.0, 've', 'off'),
+    ('Karaoke', 200000.0, 'gio', 'on'),
+    ('Thuc an', 150000.0, 've', 'on'),
+    ('Nuoc uong', 20000.0, 'chai', 'on'),
+    ('Thue xe', 120000.0, 'chiec', 'off');
 
+insert into loai_khach(ten_loai_khach)
+values
+	('Diamond'),
+    ('Platinium'),
+    ('Gold'),
+    ('Silver'),
+    ('Member');
 
+insert into khach_hang(ma_loai_khach, ho_ten, ngay_sinh, gioi_tinh, so_cmnd, so_dien_thoai, email, dia_chi)
+values
+	(1, 'Truong Cong Hien', '1990-11-03', 1, '02078945', 0905987768, 'hien@gmail.com', 'Da nang'),
+    (5, 'Nguyen Van Khoa', '1996-06-15', 1, '01054657', 0905944567, 'khoa@gmail.com', 'Quang Tri'),
+	(2, 'Vo Hau', '1985-06-12', 0, '32156745', 0905335476, 'hau@gmail.com', 'Quang Tri'),
+    (4, 'Pham Tan', '1989-11-03', 1, '02076882', 0905347658, 'tan@gmail.com', 'Da nang'),
+    (3, 'Tran Thi Hoa', '1990-11-03', 0, '36547097', 0905879896, 'hoa@gmail.com', 'Quang Nam');
