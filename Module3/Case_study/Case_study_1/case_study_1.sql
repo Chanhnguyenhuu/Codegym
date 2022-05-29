@@ -169,3 +169,11 @@ values
 	(2, 'Vo Hau', '1985-06-12', 0, '32156745', 0905335476, 'hau@gmail.com', 'Quang Tri'),
     (4, 'Pham Tan', '1989-11-03', 1, '02076882', 0905347658, 'tan@gmail.com', 'Da nang'),
     (3, 'Tran Thi Hoa', '1990-11-03', 0, '36547097', 0905879896, 'hoa@gmail.com', 'Quang Nam');
+    
+    
+/* Hiển thị thông tin những nhân viên có tên bắt đầu bằng 't', 'h', 'k'
+và độ dài tên nhỏ hơn 15
+*/
+select * 
+from nhan_vien
+where ho_ten like 't%' or ho_ten like 'h%' or ho_ten like 'k%' and length(ho_ten) < 15;
