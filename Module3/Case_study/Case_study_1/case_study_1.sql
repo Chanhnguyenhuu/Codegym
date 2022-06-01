@@ -220,7 +220,7 @@ VALUE(1,  2, 4, 5),
      (8, 12, 2, 2);
 SELECT * FROM hop_dong_chi_tiet;
     
-/*Hiển thị thông tin những nhân viên có tên bắt đầu bằng 't', 'h', 'k'
+/*Task 2: Hiển thị thông tin những nhân viên có tên bắt đầu bằng 't', 'h', 'k'
 và độ dài tên nhỏ hơn 15
 */
 select *
@@ -240,6 +240,14 @@ where timestampdiff(year, ngay_sinh, now()) between 18 and 50
 Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. 
 Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
 */
+select khach_hang.ma_khach_hang, khach_hang.ho_ten, count(hop_dong.ma_khach_hang) as so_luong_don
+from hop_dong
+join khach_hang on hop_dong.ma_khach_hang = khach_hang.ma_khach_hang
+join loai_khach on khach_hang.ma_loai_khach = loai_khach.ma_loai_khach
+where loai_khach.ma_loai_khach = 1
+group by hop_dong.ma_khach_hang
+order by count(hop_dong.ma_khach_hang) desc;
+
 
 
 
