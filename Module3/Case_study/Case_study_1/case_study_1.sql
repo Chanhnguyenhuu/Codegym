@@ -220,7 +220,7 @@ VALUE(1,  2, 4, 5),
      (8, 12, 2, 2);
 SELECT * FROM hop_dong_chi_tiet;
     
-/* Hiển thị thông tin những nhân viên có tên bắt đầu bằng 't', 'h', 'k'
+/*Hiển thị thông tin những nhân viên có tên bắt đầu bằng 't', 'h', 'k'
 và độ dài tên nhỏ hơn 15
 */
 select *
@@ -228,13 +228,19 @@ from nhan_vien
 where substring_index(ho_ten, " ", -1)
 regexp '^[htk]' and length(substring_index(ho_ten, " ", -1)) < 15;
 
-/*Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi 
+/*Task 3: Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi 
 và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
 */
 select *
 from khach_hang
 where timestampdiff(year, ngay_sinh, now()) between 18 and 50 
-	and substring_index(dia_chi, " ", ) 
+	and substring_index(dia_chi, " ", -2) regexp 'Đà Nẵng|Quảng Trị';
+    
+/*TasK 4: Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần. 
+Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. 
+Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
+*/
+
 
 
 
