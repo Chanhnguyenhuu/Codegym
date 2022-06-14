@@ -1,0 +1,12 @@
+body {
+    font-family: Times New Roman;
+    font-size: 0.9em;
+}
+
+header {
+    display: inline-block;
+    margin: 0px;
+    border: solid red;
+    color: blue;
+    background: antiquewhite;
+}
