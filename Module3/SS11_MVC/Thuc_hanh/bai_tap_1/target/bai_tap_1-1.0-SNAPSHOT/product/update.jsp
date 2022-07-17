@@ -11,29 +11,28 @@
     <title>Update Product</title>
 </head>
 <body>
+<p>
+    <a href="/product">Back to product list</a>
+</p>
 <form method="post">
     <fieldset>
         <legend>Product information</legend>
         <table>
             <tr>
-                <td>Id: </td>
-                <td><input type="text" name="id" id="id"></td>
-            </tr>
-            <tr>
                 <td>Name: </td>
-                <td><input type="text" name="name" id="name"></td>
+                <td><input type="text" name="name" id="name" value="${product.getName()}"></td>
             </tr>
             <tr>
                 <td>Price: </td>
-                <td><input type="text" name="price" id="price"></td>
+                <td><input type="text" name="price" id="price" value="${product.getPrice()}"></td>
             </tr>
             <tr>
                 <td>Status: </td>
-                <td><input type="text" name="status" id="status"></td>
+                <td><input type="text" name="status" id="status" value="${product.getStatus()}"></td>
             </tr>
             <tr>
                 <td>Manufacturer: </td>
-                <td><input type="text" name="manufacturer" id="manufacturer"></td>
+                <td><input type="text" name="manufacturer" id="manufacturer" value="${product.getManufacturer()}"></td>
             </tr>
             <tr>
                 <td></td>

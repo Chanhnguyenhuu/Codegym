@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bt_1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78643895-9090-4c92-967f-84da01ffc828" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Bai_tap_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/bt_1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/bt_1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL/bt_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL/bt_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bt_1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bt_1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/createProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/findById.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/artifacts/bt_2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/artifacts/bt_2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/bt_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/webapp/createProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/webapp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/webapp/editProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt_2/src/main/webapp/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_bower_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/artifacts/bai_tap_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/artifacts/bai_tap_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/bai_tap_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/bai_tap_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/product/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/SQL/demo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/SQL/demo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/repository/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/repository/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/classes/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/classes/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/WEB-INF/classes/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/WEB-INF/classes/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/cg/m3/thuc_hanh_1/ConverterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/cg/m3/thuc_hanh_1/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/index1.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2BQ0f7IsxGFHPPzzQUzgMkIcDmd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="bt_1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b0205929-ab1a-4fcd-a686-dcb15e6b71b9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57291" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bt_1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78643895-9090-4c92-967f-84da01ffc828" name="Changes" comment="" />
+      <created>1656823103381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656823103381</updated>
+      <workItem from="1656823106132" duration="239000" />
+      <workItem from="1656823372542" duration="20000" />
+      <workItem from="1656824387899" duration="2776000" />
+      <workItem from="1656931436442" duration="804000" />
+      <workItem from="1656937022928" duration="7541000" />
+      <workItem from="1657080390984" duration="3986000" />
+      <workItem from="1657104357230" duration="8417000" />
+      <workItem from="1657165870252" duration="46000" />
+      <workItem from="1657166023296" duration="7039000" />
+      <workItem from="1657440595028" duration="14000" />
+      <workItem from="1657462197235" duration="4580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

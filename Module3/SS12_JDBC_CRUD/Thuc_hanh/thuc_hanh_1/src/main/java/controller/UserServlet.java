@@ -7,6 +7,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -53,7 +54,9 @@ public class UserServlet extends HttpServlet {
     }
 
     private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
+        
     }
+
 
     private void listUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<User> listUser = userDAO.selectAllUsers();

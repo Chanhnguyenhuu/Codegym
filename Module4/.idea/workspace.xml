@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="897242ec-fbfe-4815-b046-d9c45c80ab76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/Bai_tap_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/artifacts/bt_1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/artifacts/bt_1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/SQL/bt_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/SQL/bt_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/artifacts/bai_thi_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/artifacts/bai_thi_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/bai_thi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/webapp/createProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/webapp/findById.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/src/main/webapp/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/bai_thi-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/bai_thi-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/bai_thi-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/bai_thi-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/bai_thi-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/controller/ProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/repository/ICategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/repository/IProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/repository/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/service/ICategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bai_thi/target/classes/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/artifacts/bt_1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/artifacts/bt_1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/bt_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/webapp/createProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/webapp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/webapp/findById.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/webapp/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/src/main/webapp/updateForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_1/target/bt_1-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/artifacts/bt_2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/artifacts/bt_2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/bt_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/createProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/editProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/findById.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/bt_2/src/main/webapp/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_bower_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/artifacts/bai_tap_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/artifacts/bai_tap_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/Bai_tap_demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/bai_tap_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/bai_tap_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/src/main/webapp/product/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/WEB-INF/classes/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/bai_tap_1-1.0-SNAPSHOT/product/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS11_MVC/Thuc_hanh/bai_tap_1/target/classes/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/SQL/demo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/SQL/demo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/repository/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/java/repository/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/classes/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/classes/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/WEB-INF/classes/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/WEB-INF/classes/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/SS12_JDBC_CRUD/Thuc_hanh/thuc_hanh_1/target/thuc_hanh_1-1.0-SNAPSHOT/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/cg/m3/thuc_hanh_1/ConverterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/cg/m3/thuc_hanh_1/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/apache-tomcat-9.0.64/webapps/ROOT/index1.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Byr72cLeroNt6QmY6be6b9ZdNa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="897242ec-fbfe-4815-b046-d9c45c80ab76" name="Changes" comment="" />
+      <created>1657888994187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657888994187</updated>
+      <workItem from="1657888995390" duration="251000" />
+      <workItem from="1657889270684" duration="134000" />
+      <workItem from="1657889433893" duration="189000" />
+      <workItem from="1657889635519" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
