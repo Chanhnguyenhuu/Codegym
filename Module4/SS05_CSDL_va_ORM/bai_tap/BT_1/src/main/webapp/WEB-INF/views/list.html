@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:form="http://www.w3.org/1999/html" xmlns:tr="http://www.w3.org/1999/html">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Song List</title>
+</head>
+<body>
+
+<form action="create">
+    <button type="submit">Create</button>
+</form>
+
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Singer</td>
+        <td>category</td>
+        <td>Link</td>
+    </tr>
+    <tr th:each="song:${songList}">
+        <td th:text="${song.id}"></td>
+        <td th:text="${song.name}"></td>
+        <td th:text="${song.singer}"></td>
+        <td th:text="${song.category}"></td>
+        <td>
+            <a th:href="${song.link}" th:text="${song.link}"></a>
+        </td>
+        <td>
+            <form action="delete">
+                <button th:id="delete" th:name="delete" th:value="${song.id}">Delete</button>
+            </form>
+        </td>
+        <td>
+            <form action="edit">
+                <button th:id="edit" th:name="edit" th:value="${song.id}">Edit</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

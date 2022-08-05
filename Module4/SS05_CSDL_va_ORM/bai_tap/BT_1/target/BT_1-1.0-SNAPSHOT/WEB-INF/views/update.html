@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Song</title>
+</head>
+<body>
+<form action="update" method="post" th:object="${song}">
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Singer</td>
+            <td>Category</td>
+            <td>Link</td>
+        </tr>
+        <tr>
+            <td><input type="text" th:field="${song.id}" hidden></td>
+            <td><input type="text" th:field="${song.name}"></td>
+            <td><input type="text" th:field="${song.singer}"></td>
+            <td><input type="text" th:field="${song.category}"></td>
+            <td><input type="text" th:field="${song.link}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Update</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
