@@ -5,18 +5,39 @@
     <title>Blog List</title>
 </head>
 <body>
+
+<form action="create">
+    <button type="submit">Create</button>
+</form>
+
+<p th:if="${message}" th:text="${message}"></p>
+
 <table border="1">
     <tr>
         <td>Id</td>
         <td>Name</td>
         <td>Writer</td>
         <td>Date</td>
+        <td>View</td>
     </tr>
     <tr th:each="blog : ${blogList}">
         <td th:text="${blog.id}"></td>
         <td th:text="${blog.name}"></td>
         <td th:text="${blog.writer}"></td>
         <td th:text="${blog.date}"></td>
+        <td th:href="@{/view?view=__${blog.id}__}" >
+            <button type="submit">View</button>
+        </td>
+        <td>
+            <form action="delete">
+                <button th:id="delete" th:name="delete" th:value="${blog.id}">Delete</button>
+            </form>
+        </td>
+        <td>
+            <form action="edit">
+                <button th:id="edit" th:name="edit" th:value="${blog.id}">Edit</button>
+            </form>
+        </td>
     </tr>
 </table>
 </body>

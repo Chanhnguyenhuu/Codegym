@@ -1,6 +1,8 @@
 package vn.codegym.bt_11.model;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Table

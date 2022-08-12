@@ -7,6 +7,7 @@ import vn.codegym.bt_11.repository.IBlogRepository;
 
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class BlogService implements IBlogService {
@@ -31,5 +32,10 @@ public class BlogService implements IBlogService {
     @Override
     public void delete(int id) {
         blogRepository.deleteById(id);
+    }
+
+    @Override
+    public Optional<Blog> findById(int id) {
+        return blogRepository.findById(id);
     }
 }
