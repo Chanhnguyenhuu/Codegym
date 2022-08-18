@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Category</title>
+</head>
+<body>
+
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+
+<form method="post" th:object="${category}" th:action="@{/category/edit}">
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td><input th:field="*{id}" name="id" type="hidden"></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input th:field="*{name}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Save</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Category</title>
+</head>
+<body>
+
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+
+<form method="post" th:object="${category}" th:action="@{/category/create}">
+    <tr>
+        <td>Name:</td>
+        <td><input th:field="*{name}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button type="submit">Save</button>
+        </td>
+    </tr>
+</form>
+</body>
+</html>

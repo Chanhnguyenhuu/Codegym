@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Category</title>
+</head>
+<body>
+<form th:object="${category}" method="post">
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td type="text" th:text="${category.id}"></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td type="text" th:text="${category.name}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Delete</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category List</title>
+</head>
+<body>
+
+<a href="/category/create">Create new category</a>
+
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+    </tr>
+    <tr th:each="category : ${categoryList}">
+        <td th:text="${category.id}"></td>
+        <td th:text="${category.name}"></td>
+        <td><a th:href="@{/category/edit/__${category.id}__}">Edit</a></td>
+        <td><a th:href="@{/category/delete/__${category.id}__}">Delete</a></td>
+    </tr>
+</table>
+</body>
+</html>
