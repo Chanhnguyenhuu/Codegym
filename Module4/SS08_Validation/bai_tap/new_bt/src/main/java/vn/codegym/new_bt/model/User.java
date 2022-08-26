@@ -1,4 +1,4 @@
-package vn.codegym.bt_1.model;
+package vn.codegym.new_bt.model;
 
 import javax.persistence.*;
 

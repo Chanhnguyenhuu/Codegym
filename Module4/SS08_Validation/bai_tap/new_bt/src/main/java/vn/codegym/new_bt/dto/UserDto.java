@@ -1,4 +1,4 @@
-package vn.codegym.bt_1.dto;
+package vn.codegym.new_bt.dto;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;

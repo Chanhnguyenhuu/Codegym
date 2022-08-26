@@ -20,8 +20,7 @@
         <tr>
             <td>Phone Number</td>
             <td><input type="text" th:field="*{phoneNumber}"></td>
-
-            <td th:if="${#fields.hasErrors('phoneNumber')}" th:error="*{phoneNumber}">Name Error</td>
+            <td th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}">Name Error</td>
 
         </tr>
         <tr>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Image</td>
+        <td>Description</td>
+        <td>Add To Cart</td>
+    </tr>
+        <tr>
+            <td th:text="${product.name}"></td>
+            <td th:text="${product.price}"></td>
+            <td>
+                <a button th:href="@{/view/__${product.id}__}" ><img th:src="@{'/img/' + ${product.img}}" width="100px" height="100px"></a>
+            </td>
+            <td th:text="${product.description}"></td>
+            <td><a th:href="@{/add/__${product.id}__(action='list')}">Add To Cart</a></td>
+        </tr>
+</table>
+</body>
+</html>
