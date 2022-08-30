@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.2.0/css/bootstrap.min.css">
+</head>
+<body>
+<form>
+    <div class="container col-4">
+        <div class=" row text-center">
+            <h1>Create Form</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <tr>
+                        <td>Name</td>
+                        <td><input id="name" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td><input id="date" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Category</td>
+                        <td><input id="category" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Content</td>
+                        <td><input id="content" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Img</td>
+                        <td><input id="img" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-primary" href="/">Back to Blog list</button>
+                        </td>
+                        <td>
+                            <button type="submit" id="btn-submit-create" class="btn btn-primary">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+    $("#btn-submit-create").click(function () {
+        // Lấy dữ liệu của form
+        let dataRequest = {
+            name:  $("#name").val(),
+            date: $("#date").val(),
+            category: $("#category").val(),
+            content: $("#content").val(),
+            img: $("#img").val()
+        };
+        // dùng ajax
+        $.ajax({
+            url: "",
+            type: "post",
+            data: JSON.stringify(dataRequest),
+            dataType: 'json',
+            contentType: "application/json",
+            success: function (data) {
+
+            }
+        })
+    })
+</script>
+</body>
+</html>

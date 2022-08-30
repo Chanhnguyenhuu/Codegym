@@ -3,53 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog List</title>
+
+    <link rel="stylesheet" href="/webjars/bootstrap/5.2.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-<form action="/blog/create">
-    <button type="submit">Create</button>
-</form>
-
-<p th:if="${message}" th:text="${message}"></p>
-
-<table border="1">
-    <tr>
-        <td>Id</td>
-        <td>Name</td>
-        <td>Writer</td>
-        <td>Date</td>
-        <td>Category</td>
-        <td>Content</td>
-        <td>Delete</td>
-        <td>Edit</td>
-    </tr>
-    <tr th:each="blog : ${blogList}">
-        <td th:text="${blog.id}"></td>
-        <td th:text="${blog.name}"></td>
-        <td th:text="${blog.writer}"></td>
-        <td th:text="${blog.date}"></td>
-        <td th:if="${blog.category}" th:text="${blog.category.name}"></td>
-        <td th:unless="${blog.category}"></td>
-
-
-        <td>
-            <form action="/blog/view">
-                <button th:id="view" th:name="view" th:value="${blog.id}">Content</button>
+<div class="container">
+    <div class="row text-center">
+        <h1>Blog List</h1>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <form action="/blog/create">
+                <button type="submit" class="btn btn-primary">Create</button>
             </form>
-        </td>
+        </div>
+        <div class="input col-10">
+            <div class="col-1">Search:</div>
+            <div class="col-2"><input></div>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table text-center">
+            <tr>
+                <td width="50px">Id</td>
+                <td width="450px">Name</td>
+                <td>Writer</td>
+                <td>Date</td>
+                <td>Category</td>
+                <td>Content</td>
+                <td>Delete</td>
+                <td>Edit</td>
+            </tr>
+            <tr th:each="blog : ${blogList}">
+                <td th:text="${blog.id}"></td>
+                <td th:text="${blog.name}"></td>
+                <td th:text="${blog.writer}"></td>
+                <td th:text="${blog.date}"></td>
+                <td th:if="${blog.category}" th:text="${blog.category.name}"></td>
+                <td th:unless="${blog.category}"></td>
 
 
-        <td>
-            <form action="/blog/delete">
-                <button th:id="delete" th:name="delete" th:value="${blog.id}">Delete</button>
-            </form>
-        </td>
-        <td>
-            <form action="/blog/edit">
-                <button th:id="edit" th:name="edit" th:value="${blog.id}">Edit</button>
-            </form>
-        </td>
-    </tr>
-</table>
+                <td>
+                    <form action="/blog/view">
+                        <button th:id="view" th:name="view" th:value="${blog.id}" class="btn btn-primary">Content</button>
+                    </form>
+                </td>
+
+
+                <td>
+                    <form action="/blog/delete">
+                        <button th:id="delete" th:name="delete" th:value="${blog.id}" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+                <td>
+                    <form action="/blog/edit">
+                        <button th:id="edit" th:name="edit" th:value="${blog.id}" class="btn btn-secondary">Edit</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<!--<form action="/blog/create">-->
+<!--    <button type="submit">Create</button>-->
+<!--</form>-->
+
+<!--<p th:if="${message}" th:text="${message}"></p>-->
+
+<!--<table border="1">-->
+<!--    <tr>-->
+<!--        <td>Id</td>-->
+<!--        <td>Name</td>-->
+<!--        <td>Writer</td>-->
+<!--        <td>Date</td>-->
+<!--        <td>Category</td>-->
+<!--        <td>Content</td>-->
+<!--        <td>Delete</td>-->
+<!--        <td>Edit</td>-->
+<!--    </tr>-->
+<!--    <tr th:each="blog : ${blogList}">-->
+<!--        <td th:text="${blog.id}"></td>-->
+<!--        <td th:text="${blog.name}"></td>-->
+<!--        <td th:text="${blog.writer}"></td>-->
+<!--        <td th:text="${blog.date}"></td>-->
+<!--        <td th:if="${blog.category}" th:text="${blog.category.name}"></td>-->
+<!--        <td th:unless="${blog.category}"></td>-->
+
+
+<!--        <td>-->
+<!--            <form action="/blog/view">-->
+<!--                <button th:id="view" th:name="view" th:value="${blog.id}">Content</button>-->
+<!--            </form>-->
+<!--        </td>-->
+
+
+<!--        <td>-->
+<!--            <form action="/blog/delete">-->
+<!--                <button th:id="delete" th:name="delete" th:value="${blog.id}">Delete</button>-->
+<!--            </form>-->
+<!--        </td>-->
+<!--        <td>-->
+<!--            <form action="/blog/edit">-->
+<!--                <button th:id="edit" th:name="edit" th:value="${blog.id}">Edit</button>-->
+<!--            </form>-->
+<!--        </td>-->
+<!--    </tr>-->
+<!--</table>-->
 </body>
 </html>
