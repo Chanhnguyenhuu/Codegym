@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/angular-calculator-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-change-font-size" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-color-picker-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-show-pet-info" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-using-bootstrap" vcs="Git" />
+  </component>
+</project>
