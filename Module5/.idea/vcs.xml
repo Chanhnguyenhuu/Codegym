@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS03_Angular_Overview/angular-calculator-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS03_Angular_Overview/angular-change-font-size" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS03_Angular_Overview/angular-color-picker-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS03_Angular_Overview/angular-show-pet-info" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS03_Angular_Overview/angular-using-bootstrap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SS04_Angular_Component_Template/angular-hackernews-app" vcs="Git" />
   </component>
 </project>
